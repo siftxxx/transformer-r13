@@ -33,6 +33,8 @@ PAD_ID = 0
 EOS = "<EOS>"
 EOS_ID = 1
 RESERVED_TOKENS = [PAD, EOS]
+LANG_MARK_LIST = ['<zh_cn>', '<en>', '<th>', '<vi>', '<ms>', '<id>', '<ja>', '<ko>', '<ar>', '<es>', '<pt>']
+RESERVED_TOKENS += LANG_MARK_LIST
 
 # Set of characters that will be used in the function _escape_token() (see func
 # docstring for more details).
